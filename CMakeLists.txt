@@ -18,7 +18,7 @@ add_executable(Main main.cpp)
 target_link_libraries(Main PUBLIC App)
 
 # Add include directories to project
-target_include_directories(Tutorial PUBLIC
+target_include_directories(Main PUBLIC
                            "${PROJECT_BINARY_DIR}"
                            "${PROJECT_SOURCE_DIR}/Src"
                            )
